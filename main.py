@@ -17,13 +17,13 @@ def get_saudacao():
     nome_usuario = os.getlogin()
     nome_saudacao.config(text=f"Olá {nome_usuario}")
 
-
+#pegar informações do dia,ano etc...
 def get_data():
     data_atual = strftime("%a,%d %b %y")
     data.config(text=data_atual)
 
 
-
+#pegar hora aual
 def get_horas():
     hora_atual = strftime("%H:%M:%S")
     horas.config(text=hora_atual)
